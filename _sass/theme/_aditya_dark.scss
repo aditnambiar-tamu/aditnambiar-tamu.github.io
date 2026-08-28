@@ -1,1 +1,70 @@
+/* ==========================================================================
+   Aditya — Dark Theme
+   Charcoal background with warm off-white typography
+   ========================================================================== */
 
+/* Core palette */
+$primary-color              : #df6861;
+$dark-primary-color         : #c4534d;
+$darker-primary-color       : #9f403b;
+$light-primary-color        : #aaa49a;
+
+$background                 : #20211f;
+$background-light           : #2a2b28;
+$background-lighter         : #32332f;
+
+$text                       : #f1ede4;
+
+$link                       : #eee9df;
+$link-dark                  : #df6861;
+$link-light                 : #c8c0b5;
+
+$footer                     : #191a18;
+
+
+/* Semantic colors */
+$danger-color               : #df6861;
+$info-color                 : #82a4b2;
+$notice-color               : #aaa49a;
+$success-color              : #8eaa92;
+$warning-color              : #d2a269;
+
+
+/* Template settings */
+$border-radius              : 2px;
+$box-shadow                 : none;
+$global-transition          : all 0.18s ease-in-out;
+
+$masthead-height            : 70px;
+$navicon-width              : 28px;
+$navicon-height             : 4px;
+$sidebar-link-max-width     : 250px;
+$sidebar-screen-min-width   : 1024px;
+
+
+/* Dark theme CSS variables */
+html[data-theme="dark"] {
+    --global-base-color                 : #{$background};
+    --global-bg-color                   : #{$background};
+    --global-footer-bg-color            : #{$footer};
+
+    --global-border-color               : #454640;
+    --global-dark-border-color          : #5b5c55;
+
+    --global-code-background-color      : #292a27;
+    --global-code-text-color            : #e8aaa5;
+
+    --global-fig-caption-color          : #aaa49a;
+
+    --global-link-color                 : #{$link};
+    --global-link-color-hover           : #{$link-dark};
+    --global-link-color-visited         : #{$link-light};
+
+    --global-masthead-link-color        : #{$text};
+    --global-masthead-link-color-hover  : #{$primary-color};
+
+    --global-text-color                 : #{$text};
+    --global-text-color-light           : #aaa49a;
+
+    --global-thead-color                : #{$background-lighter};
+}
