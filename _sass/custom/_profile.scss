@@ -1,6 +1,12 @@
 /* Rectangular author portrait */
 .author__avatar img {
-  border-radius: 0 !important;
+  width: 100%;
+  max-width: 175px;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: 0;
+  padding: 0;
+  border: 1px solid var(--global-border-color);
 }
 
 /*
